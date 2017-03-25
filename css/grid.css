@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+ }
+ body{
+    margin: 0px !important;
+}
+
+.g__wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.g__container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.g__row {
+    display: block;
+    margin: 0 -12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.g__wrapper:after,
+.g__container:after,
+.g__row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Definitie voor de kolommen
+--------------------------------------- */
+
+.g__column-12 { width: 100%; }
+.g__column-11 { width: 91.666666666667%; }
+.g__column-10 { width: 83.333333333333%; }
+.g__column-9 {  width: 75%; }
+.g__column-8 {  width: 66.666666666667%; }
+.g__column-7 {  width: 58.333333333333%; }
+.g__column-6 {  width: 50%; }
+.g__column-5 {  width: 41.666666666667%; }
+.g__column-4 {  width: 33.333333333333%; }
+.g__column-3 {  width: 25%; }
+.g__column-2 {  width: 16.666666666667%; }
+.g__column-1 {  width: 8.333333333333%; }
+
+
+.g__column-12,
+.g__column-11,
+.g__column-10,
+.g__column-9,
+.g__column-8,
+.g__column-7,
+.g__column-6,
+.g__column-5,
+.g__column-4,
+.g__column-3,
+.g__column-2,
+.g__column-1 {
+    position: relative;
+    float: left;
+    padding: 0 12px;
+}
+
+
+/* Kolommen verplaatsen
+------------------------------------- */
+.g__offset-12 { margin-left: 100%; }
+.g__offset-11 { margin-left: 91.666666666667%; }
+.g__offset-10 { margin-left: 83.333333333333%; }
+.g__offset-9 {  margin-left: 75%; }
+.g__offset-8 {  margin-left: 66.666666666667%; }
+.g__offset-7 {  margin-left: 58.333333333333%; }
+.g__offset-6 {  margin-left: 50%; }
+.g__offset-5 {  margin-left: 41.666666666667%; }
+.g__offset-4 {  margin-left: 33.333333333333%; }
+.g__offset-3 {  margin-left: 25%; }
+.g__offset-2 {  margin-left: 16.666666666667%; }
+.g__offset-1 {  margin-left: 8.333333333333%; }
+
+
+/* Kolommen als test zichtbaar maken
+------------------------------------- 
+
+.grid__development .grid__wrapper {
+    background: rgba(255, 0, 0, 0.4);
+}
+.grid__development .grid__container {
+    background: rgba(0, 255, 0, 0.4);
+}
+.grid__development .grid__row {
+    background: rgba(0, 0, 255, 0.4);
+}
+.grid__development *[class*="grid__column-"] {
+    background: rgba(255, 255, 0, 0.4);
+    height: 64px;
+    margin-bottom: 12px;
+    
+    text-align: center;
+    line-height: 64px;
+}
+.grid__development *[class*="grid__column-"] > * {
+    background: rgba(255, 0, 255, 0.4);
+}
