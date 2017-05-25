@@ -1,3 +1,6 @@
+//lokaal werkt de api, na het pushen op github niet meer :( 
+
+
 var googlemaps;
 
 google.maps.event.addDomListener(window, 'load', initMaps);
@@ -47,12 +50,11 @@ function fetchJSONFile(path, callback) {
 
 
 
-btnAddMarker.addEventListener('click', addMarker);
+//btnAddMarker.addEventListener('click', addMarker);
 
-function addMarker() {
+//function addMarker() {
 
-    var markerPosition = new googlemaps.maps.LatLng(fieldLatitude.value, fieldLongitude.value)
-    var marker = new googlemaps.maps.Marker({
-        position: markerPosition
-    })
-}
+//var markerPosition = new googlemaps.maps.LatLng(fieldLatitude.value, fieldLongitude.value)
+//var marker = new googlemaps.maps.Marker({
+//position: markerPosition
+//})
