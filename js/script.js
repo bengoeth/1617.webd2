@@ -20,7 +20,7 @@ function initMaps() {
 
 var fieldSelect = document.getElementById('styles');
 fieldSelect;
-addEventListener('change', changeMapStyles);
+
 
 
 
