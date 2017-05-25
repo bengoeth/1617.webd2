@@ -1,15 +1,16 @@
-<!DOCTYPE html SYSTEM "about:legacy-compat"> 
+<!DOCTYPE html SYSTEM "about:legacy-compat">
 <html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
-  <head>
+
+<head>
     <!-- Character encoding -->
-	  <meta charset="UTF-8"> 
-	  <!-- Latest version of rendering engine -->
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <!-- Latest version of rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Mobile Viewport -->
-	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Most important SEO tag -->
     <title>Styleguide | Webdesign II | GDM</title>
-    <!-- Other SEO friendly tags -->	
+    <!-- Other SEO friendly tags -->
     <meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
     <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
     <meta name="author" content="Arteveldehogeschool - Bachelor in de grafische en digitale media | MMP">
@@ -25,7 +26,7 @@
     <meta property="og:image:height" content="129">
     <!-- humans.txt -->
     <link rel="author" type="text/plain" href="/humans.txt">
-     <!-- DNS prefech for CDN -->
+    <!-- DNS prefech for CDN -->
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="//code.jquery.com">
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
@@ -44,49 +45,282 @@
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
     <!-- Stylesheets: App -->
-    <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/grid.css">
-    <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/syleguide.css">
+
+    <link rel="stylesheet" media="all" href="css/components/fonts.css">
+    <link rel="stylesheet" media="all" href="css/base/typography.css">
+    <link rel="stylesheet" media="all" href="css/layout/header.css">
+    <link rel="stylesheet" media="all" href="css/components/image.css">
+    <link rel="stylesheet" media="all" href="css/components/form.css">
+    <link rel="stylesheet" media="all" href="css/components/icons.css">
+    <link rel="stylesheet" media="all" href="css/base/color.css">
+    <link rel="stylesheet" media="all" href="css/layout/grid.css">
+
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 </head>
-  </head>
-  <body>
-    <div class="navigation">
+
+<body>
+    <div class=navbox>
+        <div class="left">
+            <a href="index.html">
+                <image class="logosmall" src="assets/icons/logo.svg" alt="logo"></image>
+            </a>
+        </div>
         <div class="right">
             <nav>
-                 <ul>
-                    <li><a class="link" href="">Fonts</a></li>
-                    <li><a  href="">Colors</a></li>
-                    <li><a  href="">Buttons/ links</a></li>
-                     <li><a  href="">Pictures</a></li>
-                </ul>
+                <li class="nav1"><a href="contact.html"> Contact </a></li>
+                <li class="nav1"><a href="onswerk.html"> Ons werk </a></li>
+                <li class="nav1"><a href="aanpak.html"> Aanpak </a></li>
             </nav>
         </div>
     </div>
-    <div class="g__row row_1">
-        <div class="g__column-12">
-             <div>
-                <h1>Style tyle</h1>
-             </div>
-                <div class=" g__offset-2 g__column-10 g__buttons">
-                    <h2 class="title">Fonts</h2>
-                </div>
-                 <div class=" g__offset-2 g__column-4 g__buttons">
-                    <p class="titles">
-                        Titles.........
-                    </p>
-                </div>
-                <div class=" g__offset-2 g__column-4 g__buttons">
-                    <p class="important">Maecenas faucibus mollis interdum.</p>
-                    <p class="text">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
-                </div>
-            </div>
-    
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
-  
-  </body>
+    <div class="sf-grid__container">
+        <div class="sf-grid__wrapper">
+            <div class="sf-grid__column-lg-12">
+                <div class="sf-grid__row">
+                    <div class="
+                        sf-grid__offset-xxsm-3 
+                        sf-grid__column-xxsm-6
+                        sf-grid__offset-xsm-2
+                        sf-grid__column-xsm-8
+                        sf-grid__offset-sm-0  
+                        sf-grid__column-sm-12
+                        sf-grid__offset-md-   
+                        sf-grid__column-md-
+                        sf-grid__offset-lg-2
+                        sf-grid__column-lg-8">
+                        <h1>h1:Raleway 36px</h1>
+                    </div>
+                    <div class="sf-grid__row">
+                        <div class="
+                        sf-grid__offset-xxsm-3 
+                        sf-grid__column-xxsm-6
+                        sf-grid__offset-xsm-2
+                        sf-grid__column-xsm-8
+                        sf-grid__offset-sm-0  
+                        sf-grid__column-sm-12
+                        sf-grid__offset-md-   
+                        sf-grid__column-md-
+                        sf-grid__offset-lg-2
+                        sf-grid__column-lg-8">
+                            <h2>h2:Raleway 32px</h2>
+                        </div>
+                        <div class="sf-grid__row">
+                            <div class="
+                            sf-grid__offset-xxsm-3 
+                            sf-grid__column-xxsm-6
+                            sf-grid__offset-xsm-2
+                            sf-grid__column-xsm-8
+                            sf-grid__offset-sm-0  
+                            sf-grid__column-sm-12
+                            sf-grid__offset-md-   
+                            sf-grid__column-md-
+                            sf-grid__offset-lg-2
+                            sf-grid__column-lg-8">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    <span style="color:#990C21;font-weight:bold">Roobe</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    <span style="color:#FF1239;font-family:Raleway;font-weight:bold">Detail</span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            </div>
+                            <div class="sf-grid__row center">
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-0
+                                sf-grid__column-lg-2">
+                                    <img class="index-icon" src="assets/icons/communicatie.svg" alt="Icoon van sprekende persoon">
+                                </div>
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-1
+                                sf-grid__column-lg-2">
+                                    <img class="index-icon" src="assets/icons/constructief.svg" alt="Icoon van bakstenen muur">
+                                </div>
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-1
+                                sf-grid__column-lg-2">
+                                    <img class="index-icon" src="assets/icons/veelzijdig.svg" alt="Icoon van puzzelstukje">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="sf-grid__row">
+                            <div class="
+                            sf-grid__offset-xxsm-3 
+                            sf-grid__column-xxsm-6
+                            sf-grid__offset-xsm-2
+                            sf-grid__column-xsm-8
+                            sf-grid__offset-sm-0  
+                            sf-grid__column-sm-12
+                            sf-grid__offset-md-   
+                            sf-grid__column-md-
+                            sf-grid__offset-lg-0
+                            sf-grid__column-lg-2">
+                                <p class="detail">Detail</p>
+                            </div>
+                            <div class="
+                            sf-grid__offset-xxsm-3 
+                            sf-grid__column-xxsm-6
+                            sf-grid__offset-xsm-2
+                            sf-grid__column-xsm-8
+                            sf-grid__offset-sm-0  
+                            sf-grid__column-sm-12
+                            sf-grid__offset-md-   
+                            sf-grid__column-md-
+                            sf-grid__offset-lg-1
+                            sf-grid__column-lg-2">
+                                <p class="detail">Detail</p>
+                            </div>
+                            <div class="
+                            sf-grid__offset-xxsm-3 
+                            sf-grid__column-xxsm-6
+                            sf-grid__offset-xsm-2
+                            sf-grid__column-xsm-8
+                            sf-grid__offset-sm-0  
+                            sf-grid__column-sm-12
+                            sf-grid__offset-md-   
+                            sf-grid__column-md-
+                            sf-grid__offset-lg-1
+                            sf-grid__column-lg-2">
+                                <p class="detail">Detail</p>
+                            </div>
+                        </div>
+
+                        <div class="sf-grid__row">
+                            <div class="employeerow
+                            sf-grid__offset-xxsm-3 
+                            sf-grid__column-xxsm-6
+                            sf-grid__offset-xsm-2
+                            sf-grid__column-xsm-8
+                            sf-grid__offset-sm-0  
+                            sf-grid__column-sm-12
+                            sf-grid__offset-md-   
+                            sf-grid__column-md-
+                            sf-grid__offset-lg-2
+                            sf-grid__column-lg-2">
+                                <img class="employee" src="assets/images/ben.png" alt="Picture of Teamlid Ben">
+                                <div class="employeetext
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-0
+                                sf-grid__column-lg-6">
+                                    <p class="name">Naam</p>
+                                    <p class="job">Functie</p>
+                                </div>
+                            </div>
+                            <div class="sf-grid__row">
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-2
+                                sf-grid__column-lg-8">
+                                    <h1>Forms</h1>
+                                </div>
+                            </div>
+                            <div class="sf-grid__row">
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-2
+                                sf-grid__column-lg-8">
+                                    <form action="">
+                                        <input class="input" type="text" placeholder="Placeholder"><br>
+                                        <textarea class="inputbig" name="bericht" cols="30" rows="10" placeholder="Placeholder"></textarea>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="sf-grid__row">
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-2
+                                sf-grid__column-lg-8">
+                                    <h1>Layout portfolio</h1>
+                                </div>
+                            </div>
+                            <div class="sf-grid__row center">
+                                <div class="
+                                sf-grid__offset-xxsm-3 
+                                sf-grid__column-xxsm-6
+                                sf-grid__offset-xsm-2
+                                sf-grid__column-xsm-8
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-   
+                                sf-grid__column-md-
+                                sf-grid__offset-lg-2
+                                sf-grid__column-lg-8">
+                                    <img class="border" src="http://unsplash.it/300/300" alt="">
+                                    <img class="border" src="http://unsplash.it/300/300" alt="">
+                                    <img class="border" src="http://unsplash.it/300/300" alt="">
+                                </div>
+                            </div>
+                            <div class="
+                                sf-grid__offset-xxsm-0 
+                                sf-grid__column-xxsm-12
+                                sf-grid__offset-xsm-0
+                                sf-grid__column-xsm-12
+                                sf-grid__offset-sm-0  
+                                sf-grid__column-sm-12
+                                sf-grid__offset-md-1   
+                                sf-grid__column-md-10
+                                sf-grid__offset-lg-2
+                                sf-grid__column-lg-8">
+                                <a class="icon" href="https://twitter.com/"><img class="social-icons" src="assets/icons/twitterIcon.svg" alt="twitter icon"></a>
+                                <a class="icon" href="https://www.instagram.com/"><img class="social-icons" src="assets/icons/instagramIcon.svg" alt="instagram icon"></a>
+                                <a class="icon" href="https://plus.google.com/"><img class="social-icons" src="assets/icons/googleplusIcon.svg" alt="google plus icon"></a>
+                                <a class="icon" href="https://www.facebook.com/"><img class="social-icons" src="assets/icons/facebookIcon.svg" alt="facebook icon"></a>
+                            </div>
+                            <!-- Scripts: Vendors -->
+                            <!-- For example: jQuery, lodash, handlebars, ... -->
+                            <!-- Scripts: App -->
+
+</body>
+
 </html>

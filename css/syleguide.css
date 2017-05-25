@@ -47,7 +47,25 @@ color: black;
 }
 a{
   color: black;
+
 }
+
+li a:visited{
+text-decoration: none;
+color: black;
+}
+
+
+
+
+
+
+a:active{
+text-decoration: none;
+
+
+}
+
 
 h1{
   text-align: center;

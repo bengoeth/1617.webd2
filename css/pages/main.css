@@ -12,7 +12,6 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: rgba(26, 35, 126, 1) url('../assets/images/404.jpg') no-repeat center center fixed;
     background-size: cover;
     color: rgba(232, 234, 246, 1);
 }
@@ -21,6 +20,10 @@ body {
     width: 90vw;
     padding: 1rem;
     margin-top: 1rem;
-    background: rgba(240, 98, 146, 1);
-    color: rgba(136, 14, 79, 1);
+    background: rgba(41, 182, 246, 1);
+    color: rgba(1, 87, 155, 1);
+}
+
+li {
+    display: inline-block;
 }

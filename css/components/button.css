@@ -1,0 +1,14 @@
+.buttonstartpage {
+    display: block;
+    border: solid;
+    border-color: #7F0A1C;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    text-decoration: none;
+}
