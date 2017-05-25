@@ -1,6 +1,3 @@
-//lokaal werkt de api, na het pushen op github niet meer :( 
-
-
 var googlemaps;
 
 google.maps.event.addDomListener(window, 'load', initMaps);
